@@ -49,17 +49,37 @@ public class HorseUserControl {
 
     private void displayAllHorses()
     {
+        for(int i= 0; 1<horses.length; i++ )
+        {
+
+            System.out.println("/n"+horses[i]);
+            JOptionPane.showMessageDialog(null,+horses[i]);
+
+        }
 
     }
 
     public void displayAllRaceHorses()
     {
+        for(int i= 0; 1<horses.length; i++ )
+        {
+
+            System.out.println("/n"+horses[i]);
+            JOptionPane.showMessageDialog(null,+horses[i]);
+
+        }
 
     }
 
     public void displayAllWorkHorses()
     {
+        for(int i= 0; 1<horses.length; i++ )
+        {
 
+            System.out.println("/n"+horses[i]);
+            JOptionPane.showMessageDialog(null,+horses[i]);
+
+        }
     }
 
     private int findHorse(){
